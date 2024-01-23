@@ -1,0 +1,159 @@
+body {
+  padding: 5px 5px;
+  
+  width: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('http://192.168.0.107:8080/images/body_back.png');
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.w {
+  width: 1920px;
+}
+.Header {
+  position: relative;
+  margin-top: 0px;
+  height: 200px;
+  background-image: url('http://192.168.0.107:8080/images/header_back1.png');
+  opacity: 0.95;
+  
+
+}
+.Search_module {
+  position: absolute;
+  top: 65px;
+  left:715px;
+  background-color: wheat;
+  width: 500px;
+  height: 62px;
+  color: white;
+  border-radius: 12px;
+}
+.Search_module input {
+  float: left;
+  border:0;
+  width: 441px;
+  height: 100%;
+  outline: none;
+  border-radius: 12px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.Search_module button {
+  background-color: #007eff;
+  background-image: url('http://192.168.0.107:8080/images/search1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+  border: 0;
+  float: right;
+  width: 59px;
+  height: 100%;
+}
+.Search_module button:hover {
+  opacity: 0.8;
+}
+.user_profile {
+  overflow: hidden;
+  position: absolute;
+  top: 55px;
+  right: 29px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 5px 5px 13px #1e1e1e;
+}
+
+.user_profile:hover {
+  transition: all 0.3s;
+  width: 100px;
+  height: 100px;
+}
+.user_profile img {
+  width: 100%;
+  height: 100%;
+}
+.blur_body {
+  box-shadow: 5px 5px 13px #888888;
+}
+.NavItems {
+  padding-left: 695px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 25px;
+  background-image: url('http://192.168.0.107:8080/images/navitems.png');
+}
+.NavItems ul li {
+  color: #ffffff;
+  font-size: 24px;
+  float: left;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.NavItems ul li:hover {
+  transition: all 1s;
+  background-color: #1e1e1e;
+  
+}
+.ViewPunk {
+  height: 561px;
+  background-image: url('http://192.168.0.107:8080/images/punk_view_bak.png');
+}
+.Punk_buy {
+  position: relative;
+  border: 0;
+  width: 299px;
+  height: 150px;
+  background-color: black;
+  box-shadow: -15px -1px 5px #5f5f5f;
+}
+.Punk_buy button {
+  position: absolute;
+  left: 82px;
+  top: 49px;
+  width: 140px;
+  height: 35px;
+  background-color: #007eff;
+  border: 0;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Microsoft YaHei';
+  line-height: 35px;
+
+}
+.Punk_buy div {
+  display: block;
+  position: absolute;
+  left: 109px;
+  top: 16px;
+  color: white;
+  font-size: 20px;
+}
+.Wallet_address {
+  position: absolute;
+  left: 1300px;
+  top: 100px;
+  color: white;
+  font-size: 20px;
+}

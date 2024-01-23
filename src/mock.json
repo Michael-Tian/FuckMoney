@@ -1,0 +1,22 @@
+[
+    {
+        "images": "http://192.168.0.107:8080/images/p1.png",
+        "price": 100
+    },
+    {
+        "images": "http://192.168.0.107:8080/images/p2.png",
+        "price": 100
+    },
+    {
+        "images": "http://192.168.0.107:8080/images/p4.png",
+        "price": 100
+    },
+    {
+        "images": "http://192.168.0.107:8080/images/p5.png",
+        "price": 100
+    },
+    {
+        "images": "http://192.168.0.107:8080/images/p3.png",
+        "price": 100
+    }
+]
